@@ -1,0 +1,67 @@
+/* Reset margin and padding for the body */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    height: auto; /* Do not restrict height */
+    overflow-y: auto;
+}
+
+
+/* Main content layout */
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align items to the start */
+    margin: 2em 0;
+    gap: 20px;
+}
+
+/* Audio card styles */
+.audio {
+    width: 250px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1em;
+    background-color: #272727;
+    color: white;
+    box-shadow: 1px 1px 20px 1px black;
+    margin: 1em;
+    border-radius: 5px;
+    flex: 1 1 250px;
+}
+
+/* Image inside each audio card */
+.audio img {
+    width: 200px;
+    height: 200px;
+    margin: 0.5em;
+}
+
+/* Heading and paragraph inside each audio card */
+.audio h2 {
+    font-weight: 500;
+    font-size: medium;
+    margin: 0.5em;
+}
+
+.audio p {
+    font-size: small;
+    font-weight: 300;
+    text-align: center;
+    margin: 0.5em;
+}
+
+
+
+
+
+
+.main {
+    flex-grow: 1; /* Ensure main content takes up available space */
+}
+
+
