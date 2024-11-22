@@ -40,6 +40,7 @@
   .body-container {
     display: flex; /* Flex layout to make it row-wise */
     height: 100%; /* Full height of the container */
+    
   }
   
   /* Sidebar */
